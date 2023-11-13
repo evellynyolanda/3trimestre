@@ -1,26 +1,25 @@
-.header{
-    background-color: #474261;
+.cabeçalho{background-color: aquamarine;
 }
 *{
     margin: 0;
     padding: 0;
 }
 
-
-.roupas {
-   background-color: #474261;
-   color: rgb(255, 255, 255);
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   padding: 24px 0;
+.roupas-imagem{
+  width: 20%;
 }
+
 .roupas-imagem{
   width: 20%;
 }
 .roupas-lista-item{
   display: inline-block;
-  padding: 24px;}
+  padding: 24px;
+  display: flex;}
+
+.roupas-paragrafos{color: rgb(101, 31, 180);
+
+}
 
 .escola-imagem{
  width: 25%;
@@ -35,6 +34,21 @@ padding: 24px 0;
 
 }
 .escola-div-conteudo{
+ width: 35%;
+}
+.escola-titulo{
+ padding: 24px;
+}
+.estudante-imagem{
+ width: 120px;
+}
+.estudante-icone{
+ width: 16px;
+}
+.estudante-conteudo-div{
+ text-align: center;
+}
+do{
  width: 35%;
 }
 .escola-titulo{
